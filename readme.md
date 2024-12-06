@@ -31,3 +31,18 @@ git push
 3. git switch
 4. git merge
 ```
+
+## Lesson 2
+
+```html
+Hello World
+
+<h1>Heading</h1>
+<p>Lorem ipsum</p>
+<div>Division</div>
+<br />
+
+<img src="real-logo.jpg" alt="Real Logo" width="200" height="200" />
+
+<span>Span</span>
+```

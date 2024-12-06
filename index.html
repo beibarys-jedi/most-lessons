@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.5"
+    />
+    <title>Анкета кандидата для работы</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>Анкета кандидата</header>
+    <nav>Sidebar</nav>
+    <main>
+      Главное страницы
+      <article>
+        сама анкета
+        <h3>Сама анкета</h3>
+        <h4>Общие сведения</h4>
+        <form method="get">
+          <div>Ваша фамилия</div>
+          <input type="text" />
+          <div>Ваша имя</div>
+          <input type="text" />
+          <div>Ваша отчество</div>
+          <input type="text" />
+          <div>Число, месяц и год рождения, место рождения</div>
+          <input type="date" />
+          <div>Национальность</div>
+          <input type="search" />
+          <div>
+            <label for="citizenship">Гражданство</label>
+            <select name="citizenship" id="kz">
+              <option value="kz">KZ</option>
+              <option value="ru">RU</option>
+              <option value="usa">USA</option>
+              <option value="uk">UK</option>
+            </select>
+          </div>
+          <div>Паспорт, удостоверение личности</div>
+          <input type="number" name="id" id="govid" />
+          <div>Phone</div>
+          <input type="tel" />
+          <div>Email</div>
+          <input
+            type="email"
+            name="email"
+            id="emai"
+            placeholder="timur@mail.com"
+          />
+          <div>Приложите свою справку с работы</div>
+          <input type="file" accept="image/png, .pdf" />
+          <div>Month</div>
+          <input type="month" />
+          <div>Week</div>
+          <input type="week" />
+          <div>Вы являетесь студентом?</div>
+          <input type="checkbox" />
+          <input type="submit" value="submit" />
+        </form>
+
+        <h4>Телефон</h4>
+
+        <h4>Место жительство</h4>
+        <section>секция для заполнения</section>
+
+        <h4>Образование</h4>
+        <section>секция для заполнения</section>
+
+        <h4>Опыт работы</h4>
+        <section>
+          <table>
+            <tr>
+              <th>ID</th>
+              <th>Период работы (месяц, год)</th>
+              <th>
+                Полное название организации, вид деятельности, адрес, телефон
+              </th>
+              <th>Наименование должности</th>
+              <th>ФИО руководителя, телефон</th>
+              <th>Причина увольнения</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <th>2023</th>
+              <th>Lorem Ipsum</th>
+              <th>CEO</th>
+              <th>Timurov</th>
+              <th>More rich</th>
+            </tr>
+          </table>
+        </section>
+
+        <h4>Семейное положение</h4>
+        <section>секция для заполнения</section>
+
+        <h4>Дополнительная информация</h4>
+
+        <section>
+          <button type="reset">Сбросить</button>
+          <button type="submit">Отправить</button>
+          <button>Удалить</button>
+        </section>
+      </article>
+
+      <aside>менее важный для этой страницы</aside>
+    </main>
+    <footer>Made in MOST BI @ 2024</footer>
+  </body>
+</html>
