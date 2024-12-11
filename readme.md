@@ -59,3 +59,24 @@ Hello World
 Добавить Footer
 Добавить Header
 Никаких стилей
+
+## Lesson 3
+
+```html
+Hello World
+
+<h1>Heading</h1>
+<p>Lorem ipsum</p>
+<div>Division</div>
+<br />
+
+<img src="real-logo.jpg" alt="Real Logo" width="200" height="200" />
+
+<span>Span</span>
+```
+
+Домашнее задание
+
+1. Подключить стили для header, footer
+2. Подключить стили для формы
+3. Подключить стили для таблиц

@@ -11,11 +11,10 @@
   </head>
   <body>
     <header>Анкета кандидата</header>
-    <nav>Sidebar</nav>
     <main>
-      Главное страницы
+      <nav>менее важный для этой страницы</nav>
       <article>
-        сама анкета
+        <h3>Главная страницы</h3>
         <h3>Сама анкета</h3>
         <h4>Общие сведения</h4>
         <form method="get">
@@ -57,19 +56,13 @@
           <input type="week" />
           <div>Вы являетесь студентом?</div>
           <input type="checkbox" />
+          <div>Семейное положение</div>
+          <p>секция для заполнения</p>
+          <div>Дополнительная информация</div>
+          <p>секция для заполнения</p>
+          <div>Нажмите чтобы отправить форму</div>
           <input type="submit" value="submit" />
-        </form>
-
-        <h4>Телефон</h4>
-
-        <h4>Место жительство</h4>
-        <section>секция для заполнения</section>
-
-        <h4>Образование</h4>
-        <section>секция для заполнения</section>
-
-        <h4>Опыт работы</h4>
-        <section>
+          <div>Опыт работы</div>
           <table>
             <tr>
               <th>ID</th>
@@ -90,12 +83,7 @@
               <th>More rich</th>
             </tr>
           </table>
-        </section>
-
-        <h4>Семейное положение</h4>
-        <section>секция для заполнения</section>
-
-        <h4>Дополнительная информация</h4>
+        </form>
 
         <section>
           <button type="reset">Сбросить</button>
@@ -103,9 +91,7 @@
           <button>Удалить</button>
         </section>
       </article>
-
-      <aside>менее важный для этой страницы</aside>
     </main>
-    <footer>Made in MOST BI @ 2024</footer>
   </body>
+  <footer class="footer">Made in MOST BI @ 2024</footer>
 </html>
