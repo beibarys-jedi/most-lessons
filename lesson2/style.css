@@ -1,10 +1,18 @@
 p {
   color: indigo;
+  border: 2px dashed green;
+  border-radius: 20px;
+  padding: 20px 10px; /* Vertical Horizontal*/
 }
 
 h1 {
   color: blue;
   background-color: antiquewhite;
+  border-width: 2px;
+  border-style: dotted;
+  border-color: aqua;
+  padding: 20px 0px 20px 10px; /* Top Right Bottom Left */
+  margin: 50px 0 20px 100px;
 }
 
 .info {
