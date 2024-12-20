@@ -7,9 +7,27 @@ h1 {
   background-color: antiquewhite;
 }
 
-.warning {
-  color: orange;
-  font-weight: bold;
+.info {
+  background-color: azure;
+}
+
+.info h4,
+h5,
+h6 {
+  background-color: azure;
+  color: blue;
+}
+
+.confirmation {
+  background-color: aliceblue;
+}
+
+.confirmation h4 {
+  color: red;
+}
+
+.confirmation p {
+  color: green;
 }
 
 #danger {
