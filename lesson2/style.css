@@ -1,3 +1,19 @@
 p {
-  font-family: "Courier New", Courier, monospace;
+  color: indigo;
+}
+
+h1 {
+  color: blue;
+  background-color: antiquewhite;
+}
+
+.warning {
+  color: orange;
+  font-weight: bold;
+}
+
+#danger {
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
 }
